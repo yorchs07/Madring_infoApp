@@ -1,0 +1,281 @@
+{
+  "gp": {
+    "nombre": "GP de España 2026",
+    "circuito": "Madring",
+    "ciudad": "Madrid",
+    "zonaHoraria": "Europe/Madrid",
+    "inicio": "2026-09-11T00:00:00+02:00",
+    "fin": "2026-09-13T23:59:00+02:00"
+  },
+  "eventos": [
+    {
+      "id": "f1-fp1",
+      "titulo": "Libres 1",
+      "categoria": "f1",
+      "tipo": "sesion",
+      "inicio": "2026-09-11T13:30:00+02:00",
+      "fin": "2026-09-11T14:30:00+02:00",
+      "lugar": "Madring",
+      "zona": "circuito",
+      "gratis": false,
+      "confirmado": true,
+      "nota": "Primera vez que un F1 rueda en Madrid en 45 años."
+    },
+    {
+      "id": "f1-fp2",
+      "titulo": "Libres 2",
+      "categoria": "f1",
+      "tipo": "sesion",
+      "inicio": "2026-09-11T17:00:00+02:00",
+      "fin": "2026-09-11T18:00:00+02:00",
+      "lugar": "Madring",
+      "zona": "circuito",
+      "gratis": false,
+      "confirmado": true,
+      "nota": ""
+    },
+    {
+      "id": "f1-fp3",
+      "titulo": "Libres 3",
+      "categoria": "f1",
+      "tipo": "sesion",
+      "inicio": "2026-09-12T12:30:00+02:00",
+      "fin": "2026-09-12T13:30:00+02:00",
+      "lugar": "Madring",
+      "zona": "circuito",
+      "gratis": false,
+      "confirmado": true,
+      "nota": ""
+    },
+    {
+      "id": "f1-clasificacion",
+      "titulo": "Clasificación",
+      "categoria": "f1",
+      "tipo": "sesion",
+      "inicio": "2026-09-12T16:00:00+02:00",
+      "fin": "2026-09-12T17:00:00+02:00",
+      "lugar": "Madring",
+      "zona": "circuito",
+      "gratis": false,
+      "confirmado": true,
+      "nota": "Q1 con los 22 pilotos, Q2 con 16 y Q3 con 10."
+    },
+    {
+      "id": "f1-carrera",
+      "titulo": "Carrera",
+      "categoria": "f1",
+      "tipo": "sesion",
+      "inicio": "2026-09-13T15:00:00+02:00",
+      "fin": "2026-09-13T17:00:00+02:00",
+      "lugar": "Madring",
+      "zona": "circuito",
+      "gratis": false,
+      "confirmado": true,
+      "nota": "56 vueltas a un trazado de 5,4 km y 22 curvas."
+    },
+    {
+      "id": "f3-sprint",
+      "titulo": "F3 · Carrera sprint",
+      "categoria": "soporte",
+      "tipo": "sesion",
+      "inicio": "2026-09-12T11:05:00+02:00",
+      "fin": "2026-09-12T11:45:00+02:00",
+      "lugar": "Madring",
+      "zona": "circuito",
+      "gratis": false,
+      "confirmado": true,
+      "nota": "16 vueltas. Falta confirmar el día."
+    },
+    {
+      "id": "f2-sprint",
+      "titulo": "F2 · Carrera sprint",
+      "categoria": "soporte",
+      "tipo": "sesion",
+      "inicio": "2026-09-12T14:15:00+02:00",
+      "fin": "2026-09-12T15:05:00+02:00",
+      "lugar": "Madring",
+      "zona": "circuito",
+      "gratis": false,
+      "confirmado": true,
+      "nota": "23 vueltas. Falta confirmar el día."
+    },
+    {
+      "id": "f3-principal-1",
+      "titulo": "F3 · Carrera principal 1",
+      "categoria": "soporte",
+      "tipo": "sesion",
+      "inicio": "2026-09-12T18:00:00+02:00",
+      "fin": "2026-09-12T18:45:00+02:00",
+      "lugar": "Madring",
+      "zona": "circuito",
+      "gratis": false,
+      "confirmado": true,
+      "nota": "19 vueltas. Falta confirmar el día."
+    },
+    {
+      "id": "f3-principal-2",
+      "titulo": "F3 · Carrera principal 2",
+      "categoria": "soporte",
+      "tipo": "sesion",
+      "inicio": "2026-09-13T09:45:00+02:00",
+      "fin": "2026-09-13T10:30:00+02:00",
+      "lugar": "Madring",
+      "zona": "circuito",
+      "gratis": false,
+      "confirmado": true,
+      "nota": "19 vueltas. La F3 cierra su temporada aquí, así que el campeón se corona en Madrid."
+    },
+    {
+      "id": "f2-principal",
+      "titulo": "F2 · Carrera principal",
+      "categoria": "soporte",
+      "tipo": "sesion",
+      "inicio": "2026-09-13T11:25:00+02:00",
+      "fin": "2026-09-13T12:30:00+02:00",
+      "lugar": "Madring",
+      "zona": "circuito",
+      "gratis": false,
+      "confirmado": true,
+      "nota": "32 vueltas."
+    },
+    {
+      "id": "fanzone-williams",
+      "titulo": "Fan zone de Williams",
+      "categoria": "ciudad",
+      "tipo": "fanzone",
+      "inicio": "2026-09-11T10:00:00+02:00",
+      "fin": "2026-09-13T21:00:00+02:00",
+      "lugar": "Plaza de Callao",
+      "zona": "centro",
+      "gratis": true,
+      "confirmado": false,
+      "nota": "Un FW48 a tamaño real, simuladores del trazado, cascos y trofeos históricos. Abierta desde el día 7. Confirma el horario de apertura."
+    },
+    {
+      "id": "fanzone-audi",
+      "titulo": "Espacio de Audi",
+      "categoria": "ciudad",
+      "tipo": "fanzone",
+      "inicio": "2026-09-11T10:00:00+02:00",
+      "fin": "2026-09-13T21:00:00+02:00",
+      "lugar": "Plaza de Colón",
+      "zona": "centro",
+      "gratis": true,
+      "confirmado": false,
+      "nota": "Confirma fechas y horario."
+    },
+    {
+      "id": "fanzone-mercedes",
+      "titulo": "Espacio de Mercedes",
+      "categoria": "ciudad",
+      "tipo": "fanzone",
+      "inicio": "2026-09-11T10:00:00+02:00",
+      "fin": "2026-09-13T21:00:00+02:00",
+      "lugar": "Paseo de la Castellana",
+      "zona": "centro",
+      "gratis": true,
+      "confirmado": false,
+      "nota": "Confirma fechas y horario."
+    },
+    {
+      "id": "fanzone-mclaren",
+      "titulo": "Experiencia McLaren y Mastercard",
+      "categoria": "ciudad",
+      "tipo": "fanzone",
+      "inicio": "2026-09-11T10:00:00+02:00",
+      "fin": "2026-09-12T21:00:00+02:00",
+      "lugar": "Madrid centro",
+      "zona": "centro",
+      "gratis": true,
+      "confirmado": false,
+      "nota": "Merchandising, actividades interactivas y un fotomatón con IA. Cierra el sábado 12."
+    },
+    {
+      "id": "watchparty-f1-arcade",
+      "titulo": "Watch party de la carrera",
+      "categoria": "ciudad",
+      "tipo": "watchparty",
+      "inicio": "2026-09-13T14:00:00+02:00",
+      "fin": "2026-09-13T17:00:00+02:00",
+      "lugar": "F1 Arcade Madrid",
+      "zona": "centro",
+      "gratis": false,
+      "confirmado": true,
+      "nota": "Para ver la carrera rodeado de simuladores si no tienes entrada para el circuito."
+    },
+    {
+      "id": "fanzone-las-rozas",
+      "titulo": "Fan zone de Las Rozas",
+      "categoria": "ciudad",
+      "tipo": "fanzone",
+      "inicio": "2026-09-11T11:00:00+02:00",
+      "fin": "2026-09-13T21:00:00+02:00",
+      "lugar": "Plaza de España, Las Rozas",
+      "zona": "comunidad",
+      "gratis": true,
+      "confirmado": false,
+      "nota": "Con el karting de Carlos Sainz. Confirma el horario."
+    },
+    {
+      "id": "simuladores-arroyomolinos",
+      "titulo": "Simuladores en Arroyomolinos",
+      "categoria": "ciudad",
+      "tipo": "fanzone",
+      "inicio": "2026-09-11T11:00:00+02:00",
+      "fin": "2026-09-13T21:00:00+02:00",
+      "lugar": "Plaza Mayor, Arroyomolinos",
+      "zona": "comunidad",
+      "gratis": true,
+      "confirmado": false,
+      "nota": "Dos simuladores F1 Cockpit, uno a escala 1:1 y un Fórmula Nissan de 1998."
+    },
+    {
+      "id": "leganes-recinto-ferial",
+      "titulo": "Actividades de motor en Leganés",
+      "categoria": "ciudad",
+      "tipo": "fanzone",
+      "inicio": "2026-09-11T11:00:00+02:00",
+      "fin": "2026-09-13T21:00:00+02:00",
+      "lugar": "Recinto Ferial de Leganés",
+      "zona": "comunidad",
+      "gratis": true,
+      "confirmado": false,
+      "nota": "Pantalla gigante con imágenes históricas de la F1."
+    },
+    {
+      "id": "paracuellos-formula-1430",
+      "titulo": "Exposición del Fórmula 1430",
+      "categoria": "ciudad",
+      "tipo": "fanzone",
+      "inicio": "2026-09-11T11:00:00+02:00",
+      "fin": "2026-09-13T21:00:00+02:00",
+      "lugar": "Paracuellos de Jarama",
+      "zona": "comunidad",
+      "gratis": true,
+      "confirmado": false,
+      "nota": "El monoplaza de Santiago Martín Cantero, repartido por varios puntos del municipio."
+    }
+  ],
+  "logistica": [
+    {
+      "id": "log-llegada",
+      "titulo": "Llega dos horas antes",
+      "texto": "Los accesos peatonales desde el metro de Feria de Madrid se llenan a partir de las 11:00."
+    },
+    {
+      "id": "log-colas",
+      "titulo": "Evita los controles entre 13:30 y 14:30",
+      "texto": "Sábado y domingo es cuando más cola hay en seguridad."
+    },
+    {
+      "id": "log-equipaje",
+      "titulo": "Sin maletas ni mochilas grandes",
+      "texto": "No se puede acceder al circuito con ellas. Si haces checkout el domingo, deja las cosas en una consigna."
+    },
+    {
+      "id": "log-tv",
+      "titulo": "Por televisión",
+      "texto": "DAZN F1 tiene los derechos en España, en su app o dentro de Movistar Plus+."
+    }
+  ]
+}
