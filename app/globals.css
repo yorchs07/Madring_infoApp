@@ -67,6 +67,8 @@ ul {
   z-index: 1;
 }
 
+/* Pianos laterales */
+
 .piano {
   display: none;
 }
@@ -110,6 +112,9 @@ ul {
     transform: scaleX(-1);
   }
 }
+
+/* Cabecera */
+
 .cabecera {
   position: relative;
   padding-bottom: 1rem;
@@ -156,6 +161,8 @@ ul {
   fill: var(--llanta);
 }
 
+/* Boton de tema */
+
 .tema-boton {
   display: inline-flex;
   align-items: center;
@@ -183,6 +190,8 @@ ul {
   outline: 2px solid var(--cobalto);
   outline-offset: 2px;
 }
+
+/* Portada con la cuenta atras */
 
 .portada {
   position: relative;
@@ -241,6 +250,8 @@ ul {
   letter-spacing: -0.01em;
 }
 
+/* Filtros */
+
 .filtros {
   display: flex;
   gap: 0.4rem;
@@ -278,6 +289,8 @@ ul {
   outline: 2px solid var(--carmesi);
   outline-offset: 2px;
 }
+
+/* Dias y filas */
 
 .dia {
   margin-bottom: 2.5rem;
@@ -321,9 +334,13 @@ ul {
 }
 
 .fila-lugar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
   font-size: 0.875rem;
   color: var(--tinta-suave);
-  margin-top: 0.15rem;
+  margin-top: 0.25rem;
 }
 
 .fila-nota {
@@ -351,7 +368,6 @@ ul {
 
 .marca {
   display: inline-block;
-  margin-left: 0.4rem;
   font-size: 0.75rem;
   padding: 0.05rem 0.45rem;
   border: 1px solid var(--cobalto);
@@ -368,6 +384,8 @@ ul {
   color: var(--tinta-suave);
   padding: 2rem 0;
 }
+
+/* Consejos y pie */
 
 .consejos {
   list-style: none;
