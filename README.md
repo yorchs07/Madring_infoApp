@@ -6,14 +6,16 @@ En producción: https://gp-madrid-2026.vercel.app
 
 La Fórmula 1 volvió a Madrid en septiembre de 2026 tras 45 años. La información del fin de semana estaba dispersa entre la web oficial, notas de prensa de los ayuntamientos y artículos sueltos. Esto lo reúne en una sola pantalla pensada para consultarse desde el móvil, en la calle y con una mano.
 
-Qué hace
+Qué hace:
+
 Cuenta atrás a la siguiente sesión, que cambia a modo "en directo" mientras se está disputando.
 Agenda agrupada por día con las sesiones del circuito y los eventos de ciudad en una única línea temporal.
 Filtros por zona (circuito, centro de Madrid, Comunidad) y por eventos gratuitos.
 Modo claro y oscuro, con la preferencia guardada entre visitas.
 Instalable como PWA en la pantalla de inicio.
 Los eventos cuyo horario no está confirmado oficialmente se marcan como tales en lugar de darse por buenos.
-Decisiones técnicas
+
+Decisiones técnicas:
 
 Sin backend ni base de datos. El contenido son unos treinta eventos que no cambian durante el fin de semana. Vive en un único JSON que se lee en tiempo de compilación, así que la página se sirve como HTML estático. Montar una API para esto habría añadido superficie de fallo sin ganar nada.
 
@@ -25,7 +27,7 @@ Tema sin parpadeo. Un script inline en el <head> aplica el tema guardado antes d
 
 Gráficos propios en SVG. El monoplaza y el icono son dibujos vectoriales hechos para el proyecto. Ni fotografías ni marcas de escuderías: nada con derechos de terceros.
 
-Stack
+Stack:
 
 Next.js (App Router) · React · CSS con variables personalizadas · desplegado en Vercel.
 
