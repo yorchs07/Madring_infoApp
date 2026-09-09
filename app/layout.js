@@ -16,10 +16,25 @@ const texto = Archivo({
 })
 
 export const metadata = {
+  metadataBase: new URL('https://gp-madrid-2026.vercel.app'),
   title: 'GP de España 2026 · Qué hacer en Madrid',
   description:
     'Horarios del Madring y todos los planes gratis por Madrid durante el fin de semana del Gran Premio.',
-  manifest: '/manifest.json'
+  manifest: '/manifest.json',
+  openGraph: {
+    type: 'website',
+    locale: 'es_ES',
+    siteName: 'GP de España 2026',
+    title: 'GP de España 2026 · Qué hacer en Madrid',
+    description:
+      'Sesiones de F1, F2 y F3 en el Madring, fan zones gratis por la ciudad y cómo llegar. Del 11 al 13 de septiembre.'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'GP de España 2026 · Qué hacer en Madrid',
+    description:
+      'Sesiones de F1, F2 y F3 en el Madring, fan zones gratis por la ciudad y cómo llegar.'
+  }
 }
 
 export const viewport = {
@@ -33,9 +48,9 @@ const scriptTema = `
   try {
     var guardado = localStorage.getItem('tema');
     var prefiereOscuro = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    document.documentElement.dataset.tema = guardado || (prefiereOscuro ? 'Modo oscuro' : 'Modo claro');
+    document.documentElement.dataset.tema = guardado || (prefiereOscuro ? 'oscuro' : 'claro');
   } catch (e) {
-    document.documentElement.dataset.tema = 'Modo claro';
+    document.documentElement.dataset.tema = 'claro';
   }
 })();
 `
